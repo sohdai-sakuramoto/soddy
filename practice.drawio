@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T11:54:13.863Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" version="14.2.9" etag="h29LDmioibtQzPJQ9IxC" type="github"><diagram id="EDkAqiGxFoIhpTfvJ7kp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-06T14:56:44.092Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="hsNymZzAbTrMyeVsuWTu" version="14.2.9" type="github">
+  <diagram id="EDkAqiGxFoIhpTfvJ7kp" name="ページ1">
+    <mxGraphModel dx="1906" dy="2206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-1" value="開始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-70" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nJzTKCWDo0JiwOMJP75Y-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="sourcePoint" />
+            <mxPoint x="414" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-3" value="INPUT hp" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="324" y="80" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="nJzTKCWDo0JiwOMJP75Y-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="140" as="sourcePoint" />
+            <mxPoint x="413" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-6" value="hp &amp;lt; 30" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="408.5" y="585" as="sourcePoint" />
+            <mxPoint x="408.5" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nJzTKCWDo0JiwOMJP75Y-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="400" as="sourcePoint" />
+            <mxPoint x="650" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.5" y="440" as="sourcePoint" />
+            <mxPoint x="409.5" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-10" value="" style="endArrow=classic;html=1;exitX=0.567;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nJzTKCWDo0JiwOMJP75Y-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="570" as="sourcePoint" />
+            <mxPoint x="410" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="652" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-11" value="PRINT &quot;やばい&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="319" y="524.5" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-12" value="PRINT &quot;大丈夫&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="550" y="525" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-14" value="終了" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="314" y="670" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-15" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-16" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="420" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nJzTKCWDo0JiwOMJP75Y-17" value="変数定義&lt;br&gt;&lt;br&gt;hp: ヒットポイント" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="630" y="60" width="260" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
