@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-10T12:00:27.877Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="3lfNrQt2lIORvZpVwxkH" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-10T13:36:29.976Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="mOYqK38cSxuadfcskinC" version="14.2.9" type="github">
   <diagram id="lyus1H-M3ir7NFfIUbXU" name="ページ1">
-    <mxGraphModel dx="1906" dy="1037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1306" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,7 +18,7 @@
           <mxGeometry x="354" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XXzHRJgeh1mkNBS09VlQ-5" value="終了" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="344" y="1790" width="146" height="70" as="geometry" />
+          <mxGeometry x="344" y="940" width="146" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XXzHRJgeh1mkNBS09VlQ-11" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="XXzHRJgeh1mkNBS09VlQ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -26,14 +26,14 @@
             <mxPoint x="486" y="635" as="targetPoint" />
             <Array as="points">
               <mxPoint x="730" y="585" />
-              <mxPoint x="760" y="1830" />
+              <mxPoint x="720" y="975" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XXzHRJgeh1mkNBS09VlQ-12" value="変数定義&lt;br&gt;&lt;br&gt;number: 入力された数値&lt;br&gt;odd: 奇数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="550" y="70" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="XXzHRJgeh1mkNBS09VlQ-13" value="number/2 = odd" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="XXzHRJgeh1mkNBS09VlQ-13" value="number%2 = 0&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="344" y="320" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XXzHRJgeh1mkNBS09VlQ-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XXzHRJgeh1mkNBS09VlQ-3">
@@ -164,11 +164,11 @@
         </mxCell>
         <mxCell id="XXzHRJgeh1mkNBS09VlQ-46" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="XXzHRJgeh1mkNBS09VlQ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="470" as="sourcePoint" />
+            <mxPoint x="990" y="580" as="sourcePoint" />
             <mxPoint x="1018" y="1710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1258" y="470" />
-              <mxPoint x="1300" y="1816" />
+              <mxPoint x="1258" y="580" />
+              <mxPoint x="1250" y="970" />
             </Array>
           </mxGeometry>
         </mxCell>
